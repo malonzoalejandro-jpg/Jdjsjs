@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer ring -->
+    <path
+        android:pathData="M24,54 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0"
+        android:strokeColor="#4FE3E8"
+        android:strokeWidth="3"
+        android:fillColor="#00000000" />
+
+    <!-- Inner segmented ring (HUD-style accent, deliberately incomplete) -->
+    <path
+        android:pathData="M30,54 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0"
+        android:strokeColor="#4FE3E8"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.55"
+        android:trimPathEnd="0.75"
+        android:fillColor="#00000000" />
+
+    <!-- Stylized "J" -->
+    <path
+        android:pathData="M60,34 L60,58 C60,68 50,70 42,66"
+        android:strokeColor="#F2FBFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Accent orb -->
+    <path
+        android:pathData="M56,22 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#4FE3E8" />
+
+</vector>
